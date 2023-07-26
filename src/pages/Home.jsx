@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import '../style/pagesStyle/Home.css'
+import Navbar from '../component/navbar';
 
 function Home({items}) {
     return (
-        <div>
-            <h1>Data JSON Looping</h1>
+        <div className='home'>
+            {/* <h1>Data JSON Looping</h1>
             <ul>
                 {items.map((item) => (
                     <div key={item.id}>
@@ -13,7 +15,8 @@ function Home({items}) {
                         <p>{item.description}</p>
                     </div>
                 ))}
-            </ul>
+            </ul> */}
+            <Navbar/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import './App.css'
-import Home from './home'
+import Home from './pages/Home'
 import Data from './Data.json';
 
 function App() {
