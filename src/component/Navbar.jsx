@@ -1,17 +1,20 @@
 import React from "react"
 import '../style/componentStyle/Navbar.css'
 import logo from '../assets/shared/logo.svg'
-const Navbar =()=>{
-    return(
+import { useNavigate } from "react-router-dom";
+
+const Navbar = () => {
+    const navigate = useNavigate()
+    return (
         <nav>
             <img src={logo} alt="" />
             <div className="line"></div>
             <div className="navbar-card">
                 <ul id="navbar-list">
-                    <li id="list"><a href=""><span>01</span>HOME</a></li>
-                    <li id="list"><a href=""><span>02</span>DESTINATION</a></li>
-                    <li id="list"><a href=""><span>03</span>CREW</a></li>
-                    <li id="list"><a href=""><span>04</span>TECNOLOGI</a></li>
+                    <li id="list"><h1 onClick={() => navigate('/')}><span>01</span> HOME</h1></li>
+                    <li id="list"><h1 onClick={() => navigate('destination/moon')}><span>02</span> DESTINATION</h1></li>
+                    <li id="list"><h1 onClick={() => navigate('/')}><span>02</span> DESTINATION</h1></li>
+                    <li id="list"><h1 onClick={() => navigate('/destination')}><span>02</span> DESTINATION</h1></li>
                 </ul>
             </div>
         </nav>

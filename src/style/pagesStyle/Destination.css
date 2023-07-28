@@ -1,0 +1,33 @@
+.destination{
+    background-image: url(../../assets/destination/background-destination-desktop.jpg);
+    height: 100vh;
+    width: 100%;
+    box-sizing: content-box;
+    color: white;
+}
+
+#navDestination{
+    padding-top: 40px;
+}
+
+.headDestination{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.headDestination>h1{
+    padding-bottom: 50px;
+}
+
+#cardListDes{
+    display: flex;
+    gap: 50px;
+}
+
+#listDestination{
+    color: white;
+    text-decoration: none;
+}

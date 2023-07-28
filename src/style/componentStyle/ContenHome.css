@@ -1,0 +1,25 @@
+.contenHome{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 250px 0 0 0 ;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+#articleHome{
+    width: 400px;
+    height: 400px;
+}
+#articleHome>h1{
+    font-size: 120px;
+    line-height: 200px;
+}
+
+#btnExplore{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}

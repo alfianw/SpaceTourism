@@ -1,0 +1,34 @@
+.cardDestination{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+
+#imgDes{
+    width: 350px;
+}
+
+.articleDes{
+    padding: 30px;
+    width: 400px;
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articleDes>h1{
+    font-size: 100px;
+}
+
+.long{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineDes{
+    border-bottom: 1px white solid;
+}
