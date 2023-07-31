@@ -8,7 +8,7 @@ const Destination = () =>{
     return(
         <div className="destination">
             <div className="headDestination">
-            <h1 ><span>01</span> PICK YOUR DESTINATION</h1>
+            <h1 ><span id="destinationSpan">01</span> PICK YOUR DESTINATION</h1>
             <ul id="navDestination">
                 <li id="cardListDes">
                     <Link to='moon' id="listDestination">MOON</Link>

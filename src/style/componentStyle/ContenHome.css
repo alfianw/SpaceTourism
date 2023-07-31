@@ -5,21 +5,48 @@
     height: 100vh;
     padding: 250px 0 0 0 ;
     justify-content: space-around;
+    align-items: center;
     box-sizing: border-box;
 
 }
 
 #articleHome{
-    width: 400px;
+    width: 360px;
     height: 400px;
 }
 #articleHome>h1{
-    font-size: 120px;
+    font-size: 140px;
     line-height: 200px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 20px;
+}
+
+#articleHome>h2{
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+
+#articleHome>p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 30px;
 }
 
 #btnExplore{
     width: 230px;
     height: 230px;
     border-radius: 50%;
+    transition: 1s;
+    border: 0;
+}
+
+#btnExplore:hover{
+    box-shadow: 0px 0px 0px 30px #979797;
+    cursor: pointer;
+    transition: 1s;
 }
