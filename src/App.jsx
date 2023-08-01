@@ -8,6 +8,14 @@ import DestinationMoon from './component/DestinationMoon';
 import DestinationMars from './component/DestinationMars';
 import DestinationEuropa from './component/DestinationEuropa';
 import DestinationTitan from './component/DestinationTitan';
+import Crew from './pages/Crew';
+import ContentCrew1 from './component/ContentCrew1';
+import ContentCrew2 from './component/ContentCrew2';
+import ContentCrew4 from './component/ContentCrew4';
+import ContentCrew3 from './component/ContentCrew3';
+import Tecnology from './pages/Tecnology';
+import ComponentTecnology1 from './component/ComponentTecnology1';
+
 
 
 
@@ -22,6 +30,17 @@ function App() {
           <Route path='mars' element={<DestinationMars data = {Data.destinations} />}/>
           <Route path='europa' element={<DestinationEuropa data = {Data.destinations} />}/>
           <Route path='titan' element={<DestinationTitan data = {Data.destinations} />}/>
+        </Route>
+        <Route path='crew' element={<Crew/>}>
+          <Route path='crew1' element={<ContentCrew1 data={Data.crew}/>}/>
+          <Route path='crew2' element={<ContentCrew2 data={Data.crew}/>}/>
+          <Route path='crew3' element={<ContentCrew3 data={Data.crew}/>}/>
+          <Route path='crew4' element={<ContentCrew4 data={Data.crew}/>}/>
+        </Route>
+        <Route path='tecnology' element={<Tecnology/>}>
+          <Route path='vehicle' element={<ComponentTecnology1 data={Data.technology} />}/>
+          <Route path='port' element={<ComponentTecnology1/>}/>
+          <Route path='capsul' element={<ComponentTecnology1/>}/>
         </Route>
       </Routes>
     </Router>

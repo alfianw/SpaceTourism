@@ -1,0 +1,38 @@
+.containerCrew {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 480px;
+    align-items: center;
+}
+
+.cardCrew {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.cardCrew>h1 {
+    font-size: 70px;
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
+}
+
+.cardCrew>h2 {
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
+    color: rgb(167, 167, 167);
+    font-size: 37px;
+}
+
+.cardCrew>h3 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#imgCrew {
+    padding-top: 105px;
+    width: 350px;
+    object-fit: contain;
+}

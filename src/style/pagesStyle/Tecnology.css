@@ -1,0 +1,45 @@
+.tecnology {
+    background-image: url(../../assets/technology/background-technology-desktop.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain;
+    box-sizing: content-box;
+    color: white;
+}
+
+.tecnology>h1{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.warpTecnology {
+    display: flex;
+    gap: 50px;
+    padding: 0 0 0 100px;
+
+}
+
+.navTecnology {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#listTecnology {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    border: 1px wheat solid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+#listTecnology:hover {
+    color: black;
+    background-color: white;
+}

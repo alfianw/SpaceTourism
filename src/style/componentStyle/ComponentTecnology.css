@@ -1,0 +1,16 @@
+.cardTecnology{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.articleTecno{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+#imgTecnology{
+    width: 400px;
+}

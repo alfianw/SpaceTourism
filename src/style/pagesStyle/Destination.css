@@ -2,12 +2,15 @@
     background-image: url(../../assets/destination/background-destination-desktop.jpg);
     height: 100vh;
     width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain;
     box-sizing: content-box;
     color: white;
 }
 
 #navDestination{
     padding-top: 40px;
+    margin-right: 35px;
 }
 
 .headDestination{
@@ -18,8 +21,17 @@
     padding-top: 170px;
 }
 
+#destinationSpan{
+    font-weight: 200;
+    color: rgb(157, 149, 149);
+}
+
 .headDestination>h1{
     padding-bottom: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 5px;
 }
 
 #cardListDes{

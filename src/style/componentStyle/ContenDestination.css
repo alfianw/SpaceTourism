@@ -7,7 +7,7 @@
 
 
 #imgDes{
-    width: 350px;
+    width: 380px;
 }
 
 .articleDes{
@@ -22,6 +22,13 @@
 
 .articleDes>h1{
     font-size: 100px;
+    font-family: 'Bellefair', serif;
+}
+
+.articleDes>P{
+    font-size: 12px;
+    font-weight: 200;
+
 }
 
 .long{
@@ -31,4 +38,19 @@
 
 .lineDes{
     border-bottom: 1px white solid;
+    margin: 30px 0;
+}
+
+.distance>h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 100;
+    font-size: 12px;
+    padding: 10px 0;
+    color: rgb(165, 165, 165);
+}
+
+.distance>h3{
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    font-size: 28px;
 }
