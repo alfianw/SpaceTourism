@@ -1,16 +1,35 @@
-.cardTecnology{
+.cardTecnology {
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    gap: 220px;
+    align-items: center;
 }
 
-.articleTecno{
+.articleTecno {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 500px;
+    width: 450px;
 }
 
-#imgTecnology{
+.articleTecno>h1 {
+    font-size: 80px;
+    font-family: 'Bellefair', serif;
+    font-weight: 300;
+
+}
+
+.articleTecno>p {
+    line-height: 20px;
+    font-weight: 100;
+    text-align: justify;
+
+}
+
+.articleTecno>h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+#imgTecnology {
     width: 400px;
 }

@@ -32,19 +32,28 @@ nav{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-#list>h1{
+#list>a.active{
+    color: white;
+    padding-bottom: 22px;
+    border-bottom: 2px solid white;
+}
+
+#list>a:hover{
+    color: white;
+    padding-bottom: 22px;
+    border-bottom: 2px solid grey;
+}
+
+#list>a{
     color: white;
     font-size: 12px;
     cursor: pointer;
-    transition: 1s;
     letter-spacing: 4px;
     font-weight: 100;
+    text-decoration: none;
 }
 
 #navSpan{
  font-weight: 900;
 }
 
-#list>h1:hover{
-    color: yellow;
-}

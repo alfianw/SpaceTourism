@@ -37,9 +37,21 @@
 #cardListDes{
     display: flex;
     gap: 50px;
+    height: 30px;
 }
 
 #listDestination{
     color: white;
     text-decoration: none;
+}
+
+#listDestination:hover{
+    border-bottom: 2px solid rgb(141, 141, 141);
+    padding-bottom: 10px;
+}
+
+#listDestination.active{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+
 }

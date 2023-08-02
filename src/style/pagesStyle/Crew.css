@@ -40,5 +40,13 @@
     border-radius: 50px;
     width: 10px;
     height: 10px;
+    background-color: rgb(48, 48, 48);
+}
+
+#listCrew:hover {
+    background-color: grey;
+}
+
+#listCrew.active {
     background-color: white;
 }

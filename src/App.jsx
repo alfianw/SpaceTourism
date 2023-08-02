@@ -15,6 +15,8 @@ import ContentCrew4 from './component/ContentCrew4';
 import ContentCrew3 from './component/ContentCrew3';
 import Tecnology from './pages/Tecnology';
 import ComponentTecnology1 from './component/ComponentTecnology1';
+import ComponentTecnology2 from './component/ConponentTecnology2';
+import ComponentTecnology3 from './component/ComponentTecnology3';
 
 
 
@@ -39,8 +41,8 @@ function App() {
         </Route>
         <Route path='tecnology' element={<Tecnology/>}>
           <Route path='vehicle' element={<ComponentTecnology1 data={Data.technology} />}/>
-          <Route path='port' element={<ComponentTecnology1/>}/>
-          <Route path='capsul' element={<ComponentTecnology1/>}/>
+          <Route path='port' element={<ComponentTecnology2 data={Data.technology}/>}/>
+          <Route path='capsul' element={<ComponentTecnology3 data={Data.technology}/>}/>
         </Route>
       </Routes>
     </Router>
