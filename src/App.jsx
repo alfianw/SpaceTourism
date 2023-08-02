@@ -2,7 +2,7 @@ import './App.css'
 import Home from './pages/Home'
 import Data from './Data.json';
 import Navbar from './component/navbar';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Destination from './pages/Destination';
 import DestinationMoon from './component/DestinationMoon';
 import DestinationMars from './component/DestinationMars';
