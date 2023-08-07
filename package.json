@@ -1,7 +1,7 @@
 {
+  "homepage":"https://github.com/alfianw/SpaceTourism.git",
   "name": "my-vue-app",
   "private": true,
-  "homepage":"https://github.com/alfianw/SpaceTourism.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
