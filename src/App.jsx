@@ -16,7 +16,7 @@ import Tecnology from './pages/Tecnology';
 import ComponentTecnology1 from './component/ComponentTecnology1';
 import ComponentTecnology2 from './component/ConponentTecnology2';
 import ComponentTecnology3 from './component/ComponentTecnology3';
-import Navbar from './component/navbar';
+import Navbar from './component/Navbar';
 
 
 
