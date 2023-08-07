@@ -1,7 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
 import Data from './Data.json';
-import Navbar from './component/navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Destination from './pages/Destination';
 import DestinationMoon from './component/DestinationMoon';
@@ -17,6 +16,7 @@ import Tecnology from './pages/Tecnology';
 import ComponentTecnology1 from './component/ComponentTecnology1';
 import ComponentTecnology2 from './component/ConponentTecnology2';
 import ComponentTecnology3 from './component/ComponentTecnology3';
+import Navbar from './component/navbar';
 
 
 
