@@ -1,13 +1,13 @@
 import React from "react";
 import '../style/componentStyle/ContenDestination.css'
+import moon from '../assets/destination/image-moon.png'
 
 const DestinationMoon = (props) => {
     const { data } = props
     const destination = data[0]
-    console.log(destination.images.png)
     return (
         <div className="cardDestination">
-            <img src={destination.images.png} alt="" id="imgDes"/>
+            <img src={moon} alt="" id="imgDes"/>
             <div className="articleDes">
                 <h1>{destination.name}</h1>
                 <p>{destination.description}</p>
