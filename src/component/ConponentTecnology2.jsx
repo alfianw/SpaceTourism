@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/componentStyle/ComponentTecnology.css'
+import spaceport from '../assets/technology/image-spaceport-portrait.jpg'
 
 const ComponentTecnology2 = (props) =>{
     const {data} =props
@@ -11,7 +12,7 @@ const ComponentTecnology2 = (props) =>{
                 <h1>{tecno.name}</h1>
                 <p>{tecno.description}</p>
             </div>
-            <img src={tecno.images.portrait} alt="" id="imgTecnology" />
+            <img src={spaceport} alt="" id="imgTecnology" />
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/componentStyle/ContenDestination.css'
+import europa from '../assets/destination/image-europa.png'
 
 const DestinationEuropa = (props) => {
     const { data } = props
@@ -7,7 +8,7 @@ const DestinationEuropa = (props) => {
 
     return (
         <div className="cardDestination">
-            <img src={destination.images.png} alt="" id="imgDes" />
+            <img src={europa} alt="" id="imgDes" />
             <div className="articleDes">
                 <h1>{destination.name}</h1>
                 <p>{destination.description}</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import '../style/componentStyle/ContentCrew.css'
+import mark from '../assets/crew/image-mark-shuttleworth.png'
 
 const ContentCrew2 = (props) =>{
     const {data} = props
@@ -11,7 +12,7 @@ const ContentCrew2 = (props) =>{
                 <h1>{crew.name}</h1>
                 <h3>{crew.bio}</h3>
             </div>
-            <img src={crew.images.webp} alt="" id="imgCrew"/>
+            <img src={mark} alt="" id="imgCrew"/>
         </div>
     )
 }
